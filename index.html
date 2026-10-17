@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Santodomingo's Store</title>
+<title>Santodomingo's Store</title> 
 <style>
 :root{
   --bg:#0b0b0b; --panel:#111; --soft:#171717; --gold:#c8a96b;
@@ -103,7 +103,6 @@ footer{border-top:1px solid var(--line);padding:45px 25px;text-align:center;colo
   <div class="tabs">
     <button class="tab active" onclick="setCategory('Todos',this)">Todos</button>
     <button class="tab" onclick="setCategory('Perfumes',this)">Perfumes</button>
-    <button class="tab" onclick="setCategory('Ropa deportiva',this)">Ropa deportiva</button>
     <button class="tab" onclick="setCategory('Joyería',this)">Joyería</button>
   </div>
 
@@ -147,11 +146,71 @@ const products=[
  {id:2,name:"Arabians Tonka Montale",category:"Perfumes",price:519900,image:"arabiantonka.jpg"},
  {id:3,name:"ARIANNA GRANDE THANK YOU NEXT",category:"Perfumes",price:259900,image:"thankyounext.jpeg"},
  {id:4,name:"Club de Nuit Milestone",category:"Perfumes",price:209900,image:"Nuitmilestone.jpg"},
- {id:9,name:"Lattafa Khamrah",category:"Perfumes",price:205000,image:""},
- {id:5,name:"Set deportivo 01",category:"Ropa deportiva",price:0,image:""},
- {id:6,name:"Set deportivo 02",category:"Ropa deportiva",price:0,image:""},
- {id:7,name:"Camiseta deportiva",category:"Ropa deportiva",price:0,image:""},
- {id:8,name:"Pantalón deportivo",category:"Ropa deportiva",price:0,image:""}
+ {id:5,name:"YARA LATTAFA",category:"Perfumes",price:0,image:""},
+ {id:6,name:"vIP ROSE 212",category:"Perfumes",price:0,image:""},
+ {id:7,name:"YARA CANDY LATTAFA",category:"Perfumes",price:0,image:""},
+ {id:8,name:"VERSACE YELLOW DIAMOND",category:"Perfumes",price:0,image:""},
+ {id:9,name:"VICTORIA LATTAFA",category:"Perfumes",price:0,image:""},
+ {id:10,name:"VERSACE BRIGHT CRYSTAL",category:"Perfumes",price:0,image:""},
+ {id:11,name:"VERSACE MAN EAU FRAICHE",category:"Perfumes",price:0,image:""},
+ {id:12,name:"VALENTINO UOMO",category:"Perfumes",price:0,image:""},
+ {id:13,name:"VAINILLA FREAK GIVE ME GOURMAND",category:"Perfumes",price:0,image:""},
+ {id:14,name:"VALENTINO DONA",category:"Perfumes",price:0,image:""},
+ {id:15,name:"ULTRA MALE JEAN PAUL ",category:"Perfumes",price:0,image:""},
+ {id:16,name:"URSA TIZIANA...",category:"Perfumes",price:0,image:""},
+ {id:17,name:"TOM FORD TABACCO VANILLE",category:"Perfumes",price:0,image:""},
+ {id:18,name:"TACON ROJO GOOD GIRL C.H",category:"Perfumes",price:0,image:""},
+ {id:19,name:"TACON ROSADO GOOD GIRL C.H",category:"Perfumes",price:0,image:""},
+ {id:20,name:"Summer Hammer",category:"Perfumes",price:0,image:""},
+ {id:21,name:"TACON NEGRO GOOD GIRL C.H",category:"Perfumes",price:0,image:""},
+ {id:22,name:"STRONGER WITH YOU",category:"Perfumes",price:0,image:""},
+ {id:23,name:"STRONGER WITH YOU INTENSELY",category:"Perfumes",price:0,image:""},
+ {id:24,name:"STALWALKER de MONTBLANC",category:"Perfumes",price:0,image:""},
+ {id:25,name:"STARRY NIGHT DE MONTALE",category:"Perfumes",price:0,image:""},
+ {id:26,name:"SEHR LATTAFA",category:"Perfumes",price:0,image:""},
+ {id:27,name:"SHAHEEN GOLD EAU...",category:"Perfumes",price:0,image:""},
+ {id:28,name:"SAUVAGE DIOR EAU DE PARFUM",category:"Perfumes",price:0,image:""},
+ {id:29,name:"SCANDAL MEN JEAN PAUL GAULTIER",category:"Perfumes",price:0,image:""},
+ {id:30,name:"RALPH LAUREN POLO RED",category:"Perfumes",price:0,image:""},
+ {id:31,name:"SANTAL 33 LE LABO",category:"Perfumes",price:0,image:""},
+ {id:32,name:"PARIS HILTON EAU D...",category:"Perfumes",price:0,image:""},
+ {id:33,name:"PRADA PARADOXE MILANO",category:"Perfumes",price:0,image:""},
+ {id:34,name:"ORIENTICA ROYAL AMBER",category:"Perfumes",price:0,image:""},
+ {id:35,name:"OVERDOSE ACCENTO",category:"Perfumes",price:0,image:""},
+ {id:36,name:"ORIENTICA AMBER ROUGE",category:"Perfumes",price:0,image:""},
+ {id:37,name:"ORIENTICA AZURE FANTASY",category:"Perfumes",price:0,image:""},
+ {id:38,name:"ORIENTICA EXCLUSIVE DANIA EXTRAIT de PARFUM",category:"Perfumes",price:0,image:""},
+ {id:39,name:"ONE MILLON PACO RABANNE",category:"Perfumes",price:0,image:""},
+ {id:40,name:"ONE MILLION LUCKY PACO RABANNE",category:"Perfumes",price:0,image:""},
+ {id:41,name:"OMNIA AMETHYSTE de BVLGARI",category:"Perfumes",price:0,image:""},
+ {id:42,name:"OMNIA CORAL EAU DE TOILETTE",category:"Perfumes",price:0,image:""},
+ {id:43,name:"ODYSSEY TYRANT",category:"Perfumes",price:0,image:""},
+ {id:44,name:"OMBRE MOMADE",category:"Perfumes",price:0,image:""},
+ {id:45,name:"OMBRE NOMADE LOUIS VUITTON",category:"Perfumes",price:0,image:""},
+ {id:46,name:"ODYSSEY MEGA",category:"Perfumes",price:0,image:""},
+ {id:47,name:"ODYSSEY SPECTRA",category:"Perfumes",price:0,image:""},
+ {id:48,name:"ODYSSEY MANDARIN SKY",category:"Perfumes",price:0,image:""},
+ {id:49,name:"ODYSSEY  MARSHMALLOW",category:"Perfumes",price:0,image:""},
+ {id:50,name:"ODYSSEY LIMONI",category:"Perfumes",price:0,image:""},
+ {id:51,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""},
+ {id:0,name:"",category:"Perfumes",price:0,image:""}, 
 ];
 
 let cart=[],current="Todos";
